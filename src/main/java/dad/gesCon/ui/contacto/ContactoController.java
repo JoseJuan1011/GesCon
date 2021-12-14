@@ -134,7 +134,7 @@ public class ContactoController implements Initializable {
     	FileChooser fc = new FileChooser();
     	fc.setInitialDirectory(new File("."));
     	fc.getExtensionFilters().addAll(
-    			new ExtensionFilter("Todas las Imágenes","*.jpg,*.png,*.bmp"),
+    			new ExtensionFilter("Todas las Imágenes","*.jpg","*.png","*.bmp"),
     			new ExtensionFilter("Todos los archivos","*.*")
     	);
     	try {
